@@ -1,0 +1,26 @@
+BÉ HỌC TIẾNG ANH ONLINE: HƯỚNG DẪN ĐƯA LÊN MẠNG
+
+Ứng dụng là một trang web tĩnh (không cần máy chủ riêng). Cần đưa lên một địa chỉ https
+thì nhận giọng nói và lấy từ mới từ mạng mới hoạt động. Mở trực tiếp file index.html
+trên máy sẽ không đủ.
+
+Cách 1: GitHub Pages (miễn phí)
+1. Vào kho GitHub của bạn (ví dụ thanhtuan2706/NHATMINHHOC), bấm Add file > Upload files.
+2. Kéo toàn bộ các file trong thư mục này vào. Nên đặt trong một thư mục con, ví dụ "anh-van".
+3. Vào Settings > Pages, chọn nhánh main, thư mục root, bấm Save.
+4. Sau 1 đến 2 phút, mở địa chỉ https://<tên-tài-khoản>.github.io/<tên-kho>/anh-van/
+
+Cài lên màn hình chính điện thoại Android: mở địa chỉ bằng Chrome, bấm dấu ba chấm,
+chọn "Thêm vào màn hình chính" (hoặc "Cài đặt ứng dụng").
+
+Lần đầu bé bấm nút micro, Chrome sẽ hỏi quyền dùng Micro. Bấm "Cho phép".
+
+Các nguồn dữ liệu miễn phí ứng dụng gọi từ mạng:
+- Danh sách từ theo chủ đề: Datamuse (datamuse.com)
+- Phiên âm, giọng đọc người thật, nghĩa tiếng Anh: Free Dictionary API (dictionaryapi.dev)
+- Nghĩa tiếng Việt: MyMemory (mymemory.translated.net), giới hạn khoảng 5.000 ký tự mỗi ngày
+- Hình minh họa: Wikipedia
+Khi mất mạng hoặc nguồn nào quá tải, ứng dụng tự dùng từ có sẵn hoặc từ đã lưu trên máy.
+
+Muốn cập nhật ứng dụng sau này: sửa file rồi đổi số phiên bản trong sw.js
+(dòng CACHE = 'be-hoc-anh-v1') để điện thoại tải bản mới.
